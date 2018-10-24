@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WebSolutions</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <div class="page-wrapper">
         <header>
-            <div id="logo">
-                <a href="index.html">
-        <img src="img/logo.png" alt="logo">
-        <h1>Web Solutions</h1>
-        <h2>Website Development and Web Design </h2>
-        </a>
-            </div>
             <nav>
-                <ul>
+                <a href="index.html">
+                <div class="logo-wrapper">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="logo-title">
+                        <p class="logo-subtitle">Website Development</p>
+                    </div>
+                </div>
+                <ul class="menu">
                     <li>
                         <a href="#home">Home</a>
                     </li>
@@ -30,14 +33,7 @@
                         <a href="#services">Services</a>
                     </li>
                     <li>
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
                         <a href="#contacts">Contacts</a>
-                    </li>
-                    <li>
-                        <a href="#contact-form">
-                            <span class="button">Get my free quote</span></a>
                     </li>
                 </ul>
             </nav>
@@ -45,12 +41,12 @@
         <main>
             <div class="slider">
                 <div class="slider-first">
-                    <img src="img/slider-first.jpg" alt="Web Development slide">
+                    <img src="img/main-banner.jpg" alt="Web Development slide">
                     <h1>Web Development Studio</h1>
                     <p>Have a breathtaking website your users will never want ot leave</p>
                     <a href="#contact-form">
-                <span class="button">Get a free quote</span>
-                </a>
+                            <span class="button">Get a free quote</span>
+                        </a>
                 </div>
             </div>
             <section id="aboutus">
@@ -73,21 +69,26 @@
                     </p>
                     <h2>Front-End</h2>
                     <p>HTML and Cascading Style Sheets (CSS) are the backbone of any web project, and every website we develop is well organized, using only the latest HTML and CSS standards.W3C compliant, HTML/CSS,JavaScript, JQuery AJAX </p>
-                    <a href="#contact-form"><span class="button">Hire us</span>
-        </a>
+                    <a href="#contact-form">
+                            <span class="button">Hire us</span>
+                        </a>
                 </div>
                 <div class="web-design">
                     <img src="img/web-design.jpg" alt="Web Design">
                     <h2>Web Design</h2>
                     <p>By identifying and understanding the essence and core values of your brand, we create your unique identity. We’ll put our passion for good design to work and based on approved wireframes we’ll design all screens </p>
-                    <a href="#contact-form"><span class="button">Hire us</span>
-                    </a>
+                    <a href="#contact-form">
+                            <span class="button">Hire us</span>
+                        </a>
                 </div>
                 <div class="SEO">
                     <img src="img/seo.jpg" alt="seo">
                     <h2>Search Engine Optimization</h2>
                     <p>Each optimization process starts with the detailed analysis of the website that you would like us to optimize, followed by the analysis of your competitors’ websites. Our work involves the appropriate adjustment of the website structure,
-                        so that it is possible to match the maximum number of keywords. </p> <a href="#contact-form"><span class="button">Hire us</span></a>
+                        so that it is possible to match the maximum number of keywords. </p>
+                    <a href="#contact-form">
+                            <span class="button">Hire us</span>
+                        </a>
                 </div>
             </section>
             <section id="portfolio">
@@ -105,7 +106,7 @@
                     </a>
                 </div>
                 <div class="third-section">
-                    <img src="/img/portfolio-thirdsection.jpg" alt="Third section">
+                    <img src="img/portfolio-thirdsection.jpg" alt="Third section">
                     <a href="">
                         <p>Progect for example</p>
                     </a>
@@ -123,7 +124,7 @@
                     </a>
                 </div>
                 <div class="sixth-section">
-                    <img src="/img/portfolio-thirdsection.jpg" alt="Sixth section">
+                    <img src="img/portfolio-thirdsection.jpg" alt="Sixth section">
                     <a href="">
                         <p>Progect for example</p>
                     </a>
@@ -133,13 +134,16 @@
                 <h2>Free Quote</h2>
                 <p>Fill out the form and receive your individual offer</p>
                 <form method="POST" action="https://formspree.io/oleg_tymoshchuk@ukr.net">
-                    <label>I would like to order
-                 <select name="order">
-        <option value="Web-development">Web Development</option>
-        <option value="web-design">Web Design</option>
-        <option value="seo">Search Engine Optimization</option>
-        <option value="other">Other service</option>
-        </select></label>
+                    <label>
+                            I would like to order
+                 
+                            <select name="order">
+                                <option value="Web-development">Web Development</option>
+                                <option value="web-design">Web Design</option>
+                                <option value="seo">Search Engine Optimization</option>
+                                <option value="other">Other service</option>
+                            </select>
+                        </label>
                     <br>
                     <label for="your-name"></label>
                     <input type="text" name="Your-name" placeholder="First name and last name" id="your-name">
@@ -182,8 +186,12 @@
             <div>
                 <h3>Contacts</h3>
                 <ul>
-                    <li><a href="tel:+380977857882">+3(097) 785 78 82</a></li>
-                    <li><a href="mailto:info@websolution.com.ua?subject=Mail from Our Site">info@websolution.com.ua</a></li>
+                    <li>
+                        <a href="tel:+380977857882">+3(097) 785 78 82</a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@websolution.com.ua?Subject=Hello%20again">info@websolution.com.ua</a>
+                    </li>
                 </ul>
             </div>
             <span>Сopyright 2018 Web Solution</span>
