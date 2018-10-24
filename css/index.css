@@ -39,9 +39,15 @@ header .menu li a:hover {
     header nav {
         display: flex;
     }
-    header .menu {
+     header .menu {
         flex: 1;
-        display: center;
+        align-items: center;
+        justify-content: right;
+    }
+     header .menu li {
+        margin: 0 2%;
+    }
+
     }
     header .logo-wrapper: {
         display: inline;
