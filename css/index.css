@@ -10,10 +10,21 @@ header .logo {
     text-align: center;
 }
 
+h2 {
+    color:  #033076;
+    text-align: center;
+}
 header .logo-title {
     text-align: center;
 }
 
+.logo-subtitle {
+    margin: 2px;
+}
+
+.logo-subtitle p {
+    color:  #033076;
+}
 header .menu {
     padding: 0;
     display: flex;
@@ -36,20 +47,98 @@ header .menu li a:hover {
 }
 
 @media (min-width: 500px) {
+    .logo-subtitle {
+        margin: 1px;
+    }
     header nav {
         display: flex;
     }
-     header .menu {
+    header .menu {
         flex: 1;
         align-items: center;
         justify-content: right;
     }
-     header .menu li {
+    
+    header .menu li {
         margin: 0 2%;
     }
+}
 
+header .slider {
+    min-height: 500px;
+    background-image: url(../img/main-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header .slider {
+    color: white;
+}
+
+.button {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: red; 
+    color: white; 
+    border: 2px solid #f44336;
+}
+
+main .logo-aboutus {
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+    main .logo-aboutus {
+        display: flex;
+        float: left;
+        text-align: center;
     }
-    header .logo-wrapper: {
-        display: inline;
+    main .about-us-wrapper {
+        min-height: 240px;
+    }
+}
+
+
+main .web-development {
+    background-image: url(../img/web-development.png);
+    text-align: center;
+    color: white;
+}
+
+
+
+main .web-design {
+    background-image: url(../img/web-design.jpg);
+    text-align: center;
+    color: white;
+}
+
+main .seo {
+    background-image: url(../img/seo.jpg);
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 500px) {
+    main .portfolio-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     }
 }
