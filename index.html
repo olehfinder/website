@@ -28,7 +28,7 @@
                         <a href="#home">Home</a>
                     </li>
                     <li>
-                        <a href="#aboutus">About us</a>
+                        <a href="#aboutus">About</a>
                     </li>
                     <li>
                         <a href="#services">Services</a>
@@ -75,20 +75,22 @@
                             <span class="button">Hire us</span>
                         </a>
                     </div>
-                    <div class="web-design">
-                        <h3>Web Design</h3>
-                        <p>By identifying and understanding the essence and core values of your brand, we create your unique identity. We’ll put our passion for good design to work and based on approved wireframes we’ll design all screens </p>
-                        <a href="#contact-form">
+                    <div class="design-seo-wrapper">
+                        <div class="web-design">
+                            <h3>Web Design</h3>
+                            <p>By identifying and understanding the essence and core values of your brand, we create your unique identity. We’ll put our passion for good design to work and based on approved wireframes we’ll design all screens </p>
+                            <a href="#contact-form">
                             <span class="button">Hire us</span>
                         </a>
-                    </div>
-                    <div class="seo">
-                        <h3>Search Engine Optimization</h3>
-                        <p>Each optimization process starts with the detailed analysis of the website that you would like us to optimize, followed by the analysis of your competitors’ websites. Our work involves the appropriate adjustment of the website
-                            structure, so that it is possible to match the maximum number of keywords. </p>
-                        <a href="#contact-form">
+                        </div>
+                        <div class="seo">
+                            <h3>Search Engine Optimization</h3>
+                            <p>Each optimization process starts with the detailed analysis of the website that you would like us to optimize, followed by the analysis of your competitors’ websites. Our work involves the appropriate adjustment of the website
+                                structure, so that it is possible to match the maximum number of keywords. </p>
+                            <a href="#contact-form">
                             <span class="button">Hire us</span>
                         </a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -135,11 +137,11 @@
             </section>
             <section id="contact-form">
                 <h2>Free Quote</h2>
-                <p>Fill out the form and receive your individual offer</p>
-                <form method="POST" action="https://formspree.io/oleg_tymoshchuk@ukr.net">
-                    <label>
+                <h3>Fill out the form and receive your individual offer</h3>
+                <div class="form-wrapper">
+                    <form method="POST" action="https://formspree.io/oleg_tymoshchuk@ukr.net">
+                        <label>
                             I would like to order
-                 
                             <select name="order">
                                 <option value="Web-development">Web Development</option>
                                 <option value="web-design">Web Design</option>
@@ -147,21 +149,39 @@
                                 <option value="other">Other service</option>
                             </select>
                         </label>
-                    <br>
-                    <label for="your-name"></label>
-                    <input type="text" name="Your-name" placeholder="First name and last name" id="your-name">
-                    <br>
-                    <input type="text" name="email" placeholder="Your Email address" id="your-email">
-                    <br>
-                    <input type="number" name="phone" placeholder="Your phone number" id="your-number">
-                    <br>
-                    <input type="text" name="description" placeholder="Describe Your project" id="your-description">
+                        <br>
+                        <label for="your-name"></label>
+                        <input type="text" name="Your-name" placeholder="First name and last name" id="your-name">
+                        <br>
+                        <input type="text" name="email" placeholder="Your Email address" id="your-email">
+                        <br>
+                        <input type="number" name="phone" placeholder="Your phone number" id="your-number">
+                        <br>
+                        <input type="text" name="description" placeholder="Describe Your project" id="your-description">
+                        <br>
+                        <input type="submit" value="Get My Free Quote">
+                    </form>
+                </div>
+            </section>
+
+            <section>
+                <h3>Send form</h3>
+                <form class ="login-form">
+                    <label>
+                        User name: <input type="text" name="user-name">
+                    </label>
+                    <label>
+                        Password: <input type="password" name="password">
+                    </label>
                     <br>
                     <input type="submit">
                 </form>
+
             </section>
+            <!--
             <section id="clients">
                 <h2>Our Clients</h2>
+                <div class="clients-wrapper">
                 <div class="microsoft">
                     <img src="img/microsoft-client.png" alt="Microsoft logo">
                 </div>
@@ -174,32 +194,36 @@
                 <div class="honda">
                     <img src="img/honda-client.jpg" alt="honda logo">
                 </div>
+                </div>
             </section>
+            -->
         </main>
         <footer>
-            <div id="location">
-                <h3>Location</h3>
-                <p>Ukraine, Lviv, Lubiska st. 104 office 50, "Web Solution"</p>
+            <div class="footer-wrapper">
+                <div class="location">
+                    <h3>Location</h3>
+                    <p>Ukraine, Lviv, Lubiska st. 104 office 50, "Web Solution"</p>
+                </div>
+                <div class="social">
+                    <h3>Follow us!</h3>
+                    <a href="www.facebook.com">Facebook</a>
+                    <a href="www.instagram.com">Instagram</a>
+                </div>
+                <div class="contacts">
+                    <h3>Contacts</h3>
+                    <ul>
+                        <li>
+                            <a href="tel:+380977857882">+3(097) 785 78 82</a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@websolution.com.ua?Subject=Hello%20again">info@websolution.com.ua</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div id="social">
-                <h3>Follow us!</h3>
-                <a href="www.facebook.com">Facebook</a>
-                <a href="www.instagram.com">Instagram</a>
-            </div>
-            <div>
-                <h3>Contacts</h3>
-                <ul>
-                    <li>
-                        <a href="tel:+380977857882">+3(097) 785 78 82</a>
-                    </li>
-                    <li>
-                        <a href="mailto:info@websolution.com.ua?Subject=Hello%20again">info@websolution.com.ua</a>
-                    </li>
-                </ul>
-            </div>
-            <span>Сopyright 2018 Web Solution</span>
         </footer>
     </div>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
