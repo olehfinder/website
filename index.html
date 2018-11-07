@@ -6,38 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WebSolutions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="page-wrapper">
         <header>
-            <nav>
-                <a href="index.html">
-                    <div class="logo-wrapper">
-                        <div class="logo">
-                            <img src="img/logo.png" alt="logo">
-                        </div>
-                        <div class="logo-title">
-                            <p class="logo-subtitle">Website Development</p>
-                        </div>
-                    </div>
-                </a>
-                <ul class="menu">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#aboutus">About</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contacts">Contacts</a>
-                    </li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html"><img src="/img/logo.png" alt="Company logo">Web Solutions</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth" href="#aboutus">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth" href="#portfolio">Contacts</a>
+                        </li>
 
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <button type="button" class="btn btn-outline-danger">Get Free Quote</button>
+                    </form>
+                </div>
             </nav>
             <div class="slider">
                 <div>
@@ -94,51 +99,107 @@
                     </div>
                 </div>
             </section>
-            <section id="portfolio">
+            <section class="p-0" id="portfolio">
                 <h2>Our Recent Projects</h2>
-                <div class="portfolio-wrapper">
-                    <div class="first-section">
-                        <img src="img/portfolio-firstsection.jpeg" alt="First Section">
-                        <a href="">
-                            <p>Progect for example</p>
-                        </a>
-                    </div>
-                    <div class="second-section">
-                        <img src="img/portfolio-secondsection.jpg" alt="Second section">
-                        <a href="">
-                            <p>Progect for example</p>
-                        </a>
-                    </div>
-                    <div class="third-section">
-                        <img src="img/portfolio-thirdsection.jpg" alt="Third section">
-                        <a href="">
-                            <p>Progect for example</p>
-                        </a>
-                    </div>
-                    <div class="fourth-section">
-                        <img src="img/portfolio-firstsection.jpeg" alt="Fourth Section">
-                        <a href="">
-                            <p>Progect for example</p>
-                        </a>
-                    </div>
-                    <div class="fifth-section">
-                        <img src="img/portfolio-secondsection.jpg" alt="Fifth section">
-                        <a href="">
-                            <p>Progect for example</p>
-                        </a>
-                    </div>
-                    <div class="sixth-section">
-                        <img src="img/portfolio-thirdsection.jpg" alt="Sixth section">
-                        <a href="">
-                            <p>Progect for example</p>
-                        </a>
+                <div class="container-fluid p-0">
+                    <div class="row no-gutters popup-gallery">
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio-firstsection.jpeg" alt="Microsoft website">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                      Web Development category
+                  </div>
+                  <div class="project-name">
+                    Microsoft Website
+                  </div>
+                </div>
+              </div>
+            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio-secondsection.jpg" alt="Honda website">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Design category
+                  </div>
+                  <div class="project-name">
+                    Honda Website
+                  </div>
+                </div>
+              </div>
+            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio-thirdsection.jpg" alt="Asus website">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Seo category
+                  </div>
+                  <div class="project-name">
+                    Asus Website
+                  </div>
+                </div>
+              </div>
+            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/sony-portfolio.jpeg" alt="Sony website">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Web Design Solution
+                  </div>
+                  <div class="project-name">
+                    Sony
+                  </div>
+                </div>
+              </div>
+            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/tesla-portfolio.jpg" alt="Tesla website">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Web Development category
+                  </div>
+                  <div class="project-name">
+                    Tesla
+                  </div>
+                </div>
+              </div>
+            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/apple-portfolio.jpeg" alt="Apple plugin">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Web Development category
+                  </div>
+                  <div class="project-name">
+                    Apple plugins
+                  </div>
+                </div>
+              </div>
+            </a>
+                        </div>
                     </div>
                 </div>
             </section>
             <section id="contact-form">
-                <h2>Free Quote</h2>
-                <h3>Fill out the form and receive your individual offer</h3>
                 <div class="form-wrapper">
+                    <h2>Free Quote</h2>
+                    <h3>Fill out the form and receive your individual offer</h3>
                     <form method="POST" action="https://formspree.io/oleg_tymoshchuk@ukr.net">
                         <label>
                             I would like to order
@@ -166,66 +227,95 @@
 
             <section>
                 <div class="form-ajax-wrapper">
-                    <h3>Send form</h3>
+                    <h3>Promo code</h3>
+                    <p>Get your personal discount</p>
                     <form class="login-form">
                         <label>
-                        User name: <input type="text" name="user-name">
+                        Your name: <input type="text" name="user-name">
                     </label>
                         <label>
-                        Password: <input type="password" name="password">
+                        Promo code: <input type="password" name="password">
                     </label>
                         <br>
                         <input type="submit" value="Submit">
                     </form>
                 </div>
+            </section>
 
-            </section>
+            <div class="container">
+                <section class="customer-logos slider">
+                    <h2>Our Partners</h2>
+                    <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+                    <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+                    <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+                    <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+                    <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+                    <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+                    <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+                    <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
+                </section>
+            </div>
+
             <!--
-            <section id="clients">
-                <h2>Our Clients</h2>
-                <div class="clients-wrapper">
-                <div class="microsoft">
-                    <img src="img/microsoft-client.png" alt="Microsoft logo">
-                </div>
-                <div class="facebook">
-                    <img src="img/facebook-client.png" alt="Facebook logo">
-                </div>
-                <div class="asus">
-                    <img src="img/asus-client.png" alt="Asus logo">
-                </div>
-                <div class="honda">
-                    <img src="img/honda-client.jpg" alt="honda logo">
-                </div>
-                </div>
-            </section>
-            -->
+            <div class="container">
+                <section class="customer-logos slider">
+                    <h2>Our Clients</h2>
+                    <div class="slide"><img src="img/apple-logo.png" alt="apple logo"></div>
+                    <div class="slide"><img src="img/burgerking_logo.png" alt="Burger King logo"></div>
+                    <div class="slide"><img src="img/superman-logo.png" alt="Superman logo"></div>
+                    <div class="slide"><img src="img/git-logo.png" alt="Git Hub logo"></div>
+                    <div class="slide"><img src="img/honda-logo.png" alt="Honda logo"></div>
+                    <div class="slide"><img src="img/instagram-logo.png" alt="Instagram logo"></div>
+                </section>
+            </div>-->
+
         </main>
-        <footer>
-            <div class="footer-wrapper">
-                <div class="location">
-                    <h3>Location</h3>
-                    <p>Ukraine, Lviv, Lubiska st. 104 office 50, "Web Solution"</p>
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                <h3>Web<span>Solutions</span></h3>
+                <p class="footer-links">
+                    <a href="#">Home</a> ·
+                    <a href="#">About us</a> ·
+                    <a href="#">Services</a> ·
+                    <a href="#">Portfolio</a>
+                </p>
+                <p class="footer-company-name">Web Solutions &copy; 2018</p>
+            </div>
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Lubinska st</span> Lviv, Ukraine</p>
                 </div>
-                <div class="social">
-                    <h3>Follow us!</h3>
-                    <a href="www.facebook.com">Facebook</a>
-                    <a href="www.instagram.com">Instagram</a>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p><a href="tel:+380977857882">+38 097 785 7882</a></p>
                 </div>
-                <div class="contacts">
-                    <h3>Contacts</h3>
-                    <ul>
-                        <li>
-                            <a href="tel:+380977857882">+3(097) 785 78 82</a>
-                        </li>
-                        <li>
-                            <a href="mailto:info@websolution.com.ua?Subject=Hello%20again">info@websolution.com.ua</a>
-                        </li>
-                    </ul>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@company.com">oleg_tymoshchuk@ukr.net</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the company</span> Development agency that will understand the very essence of your business idea
+                </p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </footer>
     </div>
     <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/carousel.js"></script>
 </body>
 
 </html>
