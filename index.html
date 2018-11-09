@@ -23,33 +23,33 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link smooth" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link smooth" href="#aboutus">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link smooth" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link smooth" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link smooth" href="#portfolio">Contacts</a>
+                            <a class="nav-link smooth" href="#footer">Contacts</a>
                         </li>
 
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
-                        <button type="button" class="btn btn-outline-danger">Get Free Quote</button>
+                        <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#buttonModal">Get Free Quote</button>
                     </form>
                 </div>
             </nav>
-            <div class="slider">
+            <div class="slider" id="home">
                 <div>
                     <h1>Web Development Studio</h1>
                     <p>Have a breathtaking website your users will never want ot leave</p>
                     <div class="button-container">
-                        <button class="button">Get My Free Quote</button>
+                         <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#buttonModal">Get My Free Quote</button>
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@
                         <h3>Front-End</h3>
                         <p>HTML and Cascading Style Sheets (CSS) are the backbone of any web project, and every website we develop is well organized, using only the latest HTML and CSS standards.W3C compliant, HTML/CSS,JavaScript, JQuery AJAX </p>
                         <a href="#contact-form">
-                            <span class="button">Hire us</span>
+                            <span class="button smooth">Hire us</span>
                         </a>
                     </div>
                     <div class="design-seo-wrapper">
@@ -85,7 +85,7 @@
                             <h3>Web Design</h3>
                             <p>By identifying and understanding the essence and core values of your brand, we create your unique identity. We’ll put our passion for good design to work and based on approved wireframes we’ll design all screens </p>
                             <a href="#contact-form">
-                            <span class="button">Hire us</span>
+                            <span class="button smooth">Hire us</span>
                         </a>
                         </div>
                         <div class="seo">
@@ -93,7 +93,7 @@
                             <p>Each optimization process starts with the detailed analysis of the website that you would like us to optimize, followed by the analysis of your competitors’ websites. Our work involves the appropriate adjustment of the website
                                 structure, so that it is possible to match the maximum number of keywords. </p>
                             <a href="#contact-form">
-                            <span class="button">Hire us</span>
+                            <span class="button smooth">Hire us</span>
                         </a>
                         </div>
                     </div>
@@ -243,8 +243,11 @@
             </section>
 
             <div class="container">
+                <h2>Our Clients</h2>
                 <section class="customer-logos slider">
-                    <h2>Our Clients</h2>
+                    <a href="#">
+                        <h3>See 150 others</h3>
+                    </a>
                     <div class="slide"><img src="img/apple-logo.png" alt="apple logo"></div>
                     <div class="slide"><img src="img/burgerking_logo.png" alt="Burger King logo"></div>
                     <div class="slide"><img src="img/superman-logo.png" alt="Superman logo"></div>
@@ -254,14 +257,14 @@
                 </section>
             </div>
         </main>
-        <footer class="footer-distributed">
+        <footer class="footer-distributed" id="footer">
             <div class="footer-left">
                 <h3>Web<span>Solutions</span></h3>
-                <p class="footer-links">
-                    <a href="#">Home</a> ·
-                    <a href="#">About us</a> ·
-                    <a href="#">Services</a> ·
-                    <a href="#">Portfolio</a>
+                <p class="footer-links smooth">
+                    <a href="#home">Home</a> ·
+                    <a href="#aboutus">About us</a> ·
+                    <a href="#services">Services</a> ·
+                    <a href="#portfolio">Portfolio</a>
                 </p>
                 <p class="footer-company-name">Web Solutions &copy; 2018</p>
             </div>
@@ -285,22 +288,60 @@
                     <span>About the company</span> Development agency that will understand the very essence of your business idea
                 </p>
                 <div class="footer-icons">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/oleh.tymoshchuk.7?ref=bookmarks"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/oleh-tymoshchuk-550815b1/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/olehfinder"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </footer>
     </div>
-    <script src="js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Modal Button Quote -->
+    <div class="modal fade" id="buttonModal" tabindex="-1" role="dialog" aria-labelledby="buttonModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="buttonModalLabel">Free Quote</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                </div>
+                <div class="modal-body">
+                    <form method="POST" action="https://formspree.io/oleg_tymoshchuk@ukr.net">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">I would like to order</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+          <option>Web Development</option>
+          <option>Web Design</option>
+          <option>Search Engine Optimization</option>
+          <option>Other service</option>
+        </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Describe Your Project</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Get My Free Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/smooth-scroll.js"></script>
     <script src="js/carousel.js"></script>
-
+    <script src="js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 </body>
 
 </html>

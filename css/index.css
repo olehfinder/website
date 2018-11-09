@@ -128,7 +128,7 @@ main .seo {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgb(153, 179, 230, 0.9);
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
